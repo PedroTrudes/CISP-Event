@@ -40,3 +40,177 @@ header{
 }
 
 /*Final do Header */
+
+.hero_banner{
+    padding: 10px 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero_banner img {
+    width: 65%;
+}
+
+/* Final do banner */
+
+.personas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+}
+
+.container_images{
+    padding: 35px 0px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+    border-radius: 8px;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container_images .container_images--header{
+    text-align: center;
+    padding: 30px;
+}
+
+.container_images--header h3{
+    font-size: 25px;
+    font-weight: bold;
+    color: #333333;
+    margin-bottom: 15px;
+}
+
+.container_images--header span{
+    font-size: 16px;
+    color: #666666;
+    margin-bottom: 15px;
+}
+
+.container_images button{
+    border: none;
+    padding: 15px;
+    width: 180px;
+    border-radius: 4px;
+    background-color: #0098B6;
+    color: #FFF;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 30px 0px;
+
+}
+
+#seeFewerSpeakers{
+    display: none;
+}
+
+#container_images--02{
+    display: none;
+}
+
+/* Final do container participantes */
+
+.about_us{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 25px;
+}
+
+.container_about--text{
+    padding: 35px 0px;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container_about--text p{
+    margin: 25px 0px;
+    max-width: 65%;
+}
+
+.container_about--text h3{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    color: #333333;
+}
+
+.container_about--text p {
+    font-size: 16px;
+    line-height: 150%;
+    color: #666666;
+}
+
+.mark-green{
+    background-color: #00FF00;
+}
+
+.mark-yellow{
+    background-color: #FFFF00;
+}
+
+/* final do container sobre o envento*/
+
+.localization{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 45px 0px;
+}
+
+.container_maps{
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+
+.container_maps iframe{
+    border-radius: 8px;
+}
+
+/*Final do container maps*/
+
+.historical{
+    border: 1px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container_historical{
+    border: 1px solid red;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.historical-date{
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 0px;
+    width: 70%;
+}
+
+.historical-date div{
+    width: 100%;
+    padding: 15px;
+    margin: 0px 2px;
+    text-align: center;
+    border-bottom: 1px solid black;
+    color: #0098B6;
+}
+
+.active{
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-bottom: none!important;
+}
