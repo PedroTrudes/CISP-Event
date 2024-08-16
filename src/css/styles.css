@@ -194,6 +194,7 @@ header{
 @media (max-width: 650px) {
     .container_about--text{
         width: 90%;
+        border: 1px solid red;
     }
     .container_about--text p{
         margin: 25px 0px;
@@ -201,7 +202,13 @@ header{
     }
 }
 @media (max-width: 500px) {
-  
+    .container_about--text{
+        width: 100%;
+    }
+    .container_about--text p{
+        margin: 25px 0px;
+        max-width: 100%;
+    }
 }
 /* final do container sobre o envento*/
 
