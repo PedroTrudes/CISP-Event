@@ -15,29 +15,6 @@ document.getElementById("seeAllSpeakers").onclick = function() {
     }
 }
 
-document.getElementById("seeAllPlayer").onclick = function(){ 
-    console.log("testeeee")
-    let playerLock01 = document.getElementById("players-lock01")
-    let playerLock02 = document.getElementById("players-lock02")
-    let playerLock03 = document.getElementById("players-lock03")
-    let playerLock04 = document.getElementById("players-lock04")
-    let playerLock05 = document.getElementById("players-lock05")
-
-    if(playerLock01.style.display === "none"){
-        playerLock01.style.display = "none"
-        console.log("bloco01")
-        //btnSeeAllPlayer.textContent = "Ver menos"
-    }else{
-        playerLock02.style.display = "block"
-        playerLock03.style.display = "block"
-        playerLock04.style.display = "block"
-        playerLock05.style.display = "block"
-        console.log("bloco02")
-        //btnSeeAllPlayer.textContent = "Ver todos"
-    }
-
-}
-
 //mecanica do historico de edicoes
 let indicatorSeg = document.getElementById("historical-seg");
 let indicatorTer = document.getElementById("historical-ter");
@@ -117,3 +94,19 @@ indicatorQui.onclick = function() {
 
 //container de videos do youtube
 
+let btnSeeAllPlayer = document.getElementById("seeAllPlayer");
+
+btnSeeAllPlayer.onclick = function() {
+    let containerPlayers = document.getElementById("container-player");
+    if(containerPlayers.classList.contains("remove-container")){
+        console.log("ele tem ")
+        containerPlayers.classList.remove("remove-container");
+        btnSeeAllPlayer.textContent = "Ver menos"
+    }
+    else {
+        console.log("ele não tem ")
+        containerPlayers.classList.add("remove-container")
+        btnSeeAllPlayer.textContent = "Ver todos"
+       // containerPlayers.style.display = "flex";
+    }
+}

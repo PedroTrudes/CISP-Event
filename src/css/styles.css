@@ -272,11 +272,13 @@ header{
 .container_interviews{
     margin: 45px 0px;
     width: 70%;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+
 }
 
 .container_interviews h3{
     text-align: center;
-    margin-bottom: 45px;
+    margin: 45px 0px;
     font-size: 26px;
     font-weight: bold;
 }
@@ -292,21 +294,42 @@ header{
     margin: 15px;
 }
 
-#players-lock01{
+#container-player{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.interviews-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 25px 0px;
+}
+
+.interviews-btn button {
+    border: none;
+    padding: 15px;
+    width: 180px;
+    border-radius: 4px;
+    background-color: #0098B6;
+    color: #FFF;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 30px 0px;
+}
+
+.remove-container{
+    display: none !important;
+}
+
+#seeFewerPlayer{
     display: none;
 }
-#players-lock02{
-    display: none;
-}
-#players-lock03{
-    display: none;
-}
-#players-lock04{
-    display: none;
-}
-#players-lock05{
-    display: none;
-}
+
 /* termino dos players de video*/
 
 .photo{
@@ -322,10 +345,13 @@ header{
     align-items: center;
     justify-content: center;
     width: 70%;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+
 }
 
 .container_photos h3{
     font-size: 26px;
+    margin: 45px 0px;
     font-weight: bold;
 }
 
@@ -338,7 +364,7 @@ header{
 
 .photos img{
     box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
-    width: 430px;
+    width: 700px;
     height: 400px;
     margin: 5px;
 }
