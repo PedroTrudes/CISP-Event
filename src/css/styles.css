@@ -111,6 +111,9 @@ header{
 #container_images--02{
     display: none;
 }
+#container_images--03{
+    display: none;
+}
 
 /* Final do container participantes */
 
@@ -221,13 +224,23 @@ header{
 
 .activities{
     width: 100%;
-    display: none;
 }
 
 /*teste de display none*/
 #activities-seg{
-    display: block!important;
+    display: block;
 }
+#activities-ter{
+    display: none;
+}
+#activities-qua{
+    display: none;
+}
+#activities-qui{
+    display: none;
+}
+
+
 /* termina o teste*/
 
 .activities div{
@@ -237,6 +250,7 @@ header{
     padding: 15px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     cursor: pointer;
     border: 1px solid transparent;
     transition: 0.50s ease-in-out;
@@ -278,6 +292,21 @@ header{
     margin: 15px;
 }
 
+#players-lock01{
+    display: none;
+}
+#players-lock02{
+    display: none;
+}
+#players-lock03{
+    display: none;
+}
+#players-lock04{
+    display: none;
+}
+#players-lock05{
+    display: none;
+}
 /* termino dos players de video*/
 
 .photo{
