@@ -465,6 +465,27 @@ header{
     margin: 5px;
 }
 
+.text_driver{
+    margin-bottom: 5px;
+}
+
+.driver{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.driver a{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+    border-radius: 4px;
+    margin: 15px;
+    padding: 15px;
+    width: 50%;
+    text-align: center;
+    text-decoration: none;
+    color: #0098B6;
+}
+
 @media (max-width: 820px) {
     .container_photos{
         width: 90%;
@@ -476,6 +497,15 @@ header{
         width: 90%;
         height: 280px;
     }
+    .driver{
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    .driver a{
+        width: 30%;
+    }
+
 }
 @media (max-width: 500px) {
     .photos img{
