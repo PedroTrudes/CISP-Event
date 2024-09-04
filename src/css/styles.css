@@ -53,6 +53,28 @@ header{
     height: 35px;
 }
 
+.container_nav{
+    
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.nav--list{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 100%;
+}
+nav{
+    width: 100%;
+}
+.nav--list a{
+    text-decoration: none;
+    color: #0098B6;
+}
+
+
 /*Final do Header */
 
 .hero_banner{
@@ -159,15 +181,15 @@ header{
 
 #container_images--01{
     box-sizing: border-box;
-    width: 80%;
+    width: 75%;
 }
 
 #container_images--02{
-    width: 80%;
+    width: 75%;
     
 }
 #container_images--03{
-    width: 80%;
+    width: 75%;
     
 }
 

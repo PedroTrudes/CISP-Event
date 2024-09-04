@@ -1,3 +1,4 @@
+console.log("chamando aquirvo")
 //mecanica do historico de edicoes
 let indicatorSeg = document.getElementById("historical-seg");
 let indicatorTer = document.getElementById("historical-ter");
@@ -76,41 +77,34 @@ indicatorQui.onclick = function() {
 }
 
 //container de videos do youtube
-
-let btnSeeAllPlayer = document.getElementById("seeAllPlayer");
-
-btnSeeAllPlayer.onclick = function() {
+function SeeAllPlayer() {
+    let btnSeeAllPlayer = document.getElementById("seeAllPlayer");
     let containerPlayers = document.getElementById("container-player");
     if(containerPlayers.classList.contains("remove-container")){
-        console.log("ele tem ")
         containerPlayers.classList.remove("remove-container");
         btnSeeAllPlayer.textContent = "Ver menos";
     }
     else {
-        console.log("ele não tem ")
         containerPlayers.classList.add("remove-container");
         btnSeeAllPlayer.textContent = "Ver todos";
        // containerPlayers.style.display = "flex";
     }
+
 }
 
 //mostrar imagens dos palestrantes
-
-let btnSeeAllSpeakers = document.getElementById("seeAllSpeakers");
-btnSeeAllSpeakers.onclick = function() {
+function seeAllSpeakers(){
+    let btnSeeAllSpeakers = document.getElementById("seeAllSpeakers");
     let containerImages01 = document.getElementById("container_images--02");
     let containerImages02 = document.getElementById("container_images--03");
     if(containerImages01.classList.contains("remove-speakers")){
-        console.log("Ele tem a classe");
         containerImages01.classList.remove("remove-speakers");
         containerImages02.classList.remove("remove-speakers");
         btnSeeAllSpeakers.textContent = "Ver menos";
     }else {
-        console.log("Ele não tem a clasee remove-speakers");
         containerImages01.classList.add("remove-speakers");
         containerImages02.classList.add("remove-speakers");
         btnSeeAllSpeakers.textContent = "Ver todos";
     }
-
 
 }
