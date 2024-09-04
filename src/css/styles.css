@@ -1,7 +1,10 @@
 header{
     box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
 }
-
+.link-event{
+    text-decoration: none;
+    font-size: 18px;
+}
 .container_header--text{
     display: flex;
     align-items: center;
@@ -194,7 +197,7 @@ header{
 
 .container_about--text{
     padding: 35px 0px;
-    width: 70%;
+    width: 90%;
     display: flex;
     flex-direction: column;
     align-items: center;
