@@ -644,3 +644,16 @@ footer span{
         height: 350px;
     }
 }
+
+.container_information{
+    text-align: center;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container_information h1 {
+    font-size: 25px;
+    color: #0098B6;
+}
