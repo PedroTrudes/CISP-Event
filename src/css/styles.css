@@ -720,3 +720,6 @@ footer span{
     font-size: 25px;
     color: #0098B6;
 }
+.container_information a{
+    text-decoration: none;
+}
